@@ -29,3 +29,6 @@ def update_counting_hash(hash, key)
     hash[key] = 1
   end
 end
+
+clothes = {:dresses => 3, :pants => 2}
+update_counting_hash(clothes, :dresses)
